@@ -88,7 +88,7 @@ btnHold.addEventListener('click', function () {
       scores[activePlayer];
 
     // check if score > 100
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 50) {
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.add('player--winner');
